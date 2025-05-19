@@ -34,3 +34,10 @@ vim.keymap.set('n', '<A-j>', '<C-w><C-j>', { desc = 'Move focus to the lower win
 
 vim.keymap.set('n', '<A-Up>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 vim.keymap.set('n', '<A-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
+
+-- COPILOT KEYBINDINGS
+vim.keymap.set('n', '<leader>cc', ':CopilotChat<CR>', { desc = 'Open Copilot Chat' })
+vim.keymap.set('n', '<leader>cq', ':CopilotChatClose<CR>', { desc = 'Close Copilot Chat' })
+vim.keymap.set('n', '<leader>cr', ':CopilotChatReset<CR>', { desc = 'Reset Copilot Chat' })
+vim.keymap.set('n', '<leader>cm', ':CopilotChatModels<CR>', { desc = 'Choose language model' })
+vim.keymap.set('n', '<leader>ca', ':CopilotChatAgents<CR>', { desc = 'Choose agent' })
