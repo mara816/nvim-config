@@ -41,3 +41,5 @@ vim.keymap.set('n', '<leader>cq', ':CopilotChatClose<CR>', { desc = 'Close Copil
 vim.keymap.set('n', '<leader>cr', ':CopilotChatReset<CR>', { desc = 'Reset Copilot Chat' })
 vim.keymap.set('n', '<leader>cm', ':CopilotChatModels<CR>', { desc = 'Choose language model' })
 vim.keymap.set('n', '<leader>ca', ':CopilotChatAgents<CR>', { desc = 'Choose agent' })
+
+

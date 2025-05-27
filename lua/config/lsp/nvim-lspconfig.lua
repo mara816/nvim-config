@@ -193,6 +193,21 @@ return {
     --  - settings (table): Override the default settings passed when initializing the server.
     --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
     local servers = {
+      bicep = {},
+      -- powershell_es = {},
+      -- powershell_es = {
+      --   bundle_path = '/home/.local/share/nvim/mason/packages/powershell-editor-services/',
+      --   cmd = {
+      --     '-NoLogo',
+      --     '-NoProfile',
+      --     '-Command',
+      --     '/home/.local/share/nvim/mason/packages/powershell-editor-services/PowerShellEditorServices/Start-EditorServices.ps1',
+      --   },
+      --   shell = 'powershell.exe',
+      -- },
+
+      -- yamlls = {},
+      -- yamllint = {},
       -- clangd = {},
       -- gopls = {},
       -- pyright = {},

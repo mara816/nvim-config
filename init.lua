@@ -2,7 +2,6 @@ require 'config.core.settings'
 require 'config.core.config'
 require 'config.core.keymaps'
 require 'config.core.lazy'
-
 -- Command-completion
 require('command-completion').setup()
 
