@@ -219,10 +219,22 @@ return {
       --   'C:\\Users\\mteu\\Downloads\\PowerShellEditorServices\\PowerShellEditorServices\\Start-EditorServices.ps1',
       -- },
       -- },
-
+      azure_pipelines_ls = {},
       jsonls = {},
       yamllint = {},
-      yamlls = {},
+      -- yamlls = {
+      -- settings = {
+      --   yaml = {
+      --     schemas = {
+      --       -- kubernetes = '/*.yaml',
+      --       -- ['http://json.schemastore.org/github-workflow'] = '.github/workflows/*.{yml,yaml}',
+      --       -- ['http://json.schemastore.org/github-action'] = '.github/action.{yml,yaml}',
+      --       -- ['http://json.schemastore.org/ansible-stable-2.9'] = 'playbook.yml',
+      --       ['https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json'] = '*.y*l',
+      --     },
+      --   },
+      -- },
+      -- },
       bicep = {},
       lua_ls = {
         -- cmd = { ... },

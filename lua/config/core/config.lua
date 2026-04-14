@@ -8,8 +8,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank()
   end,
 })
-vim.cmd [[ autocmd BufNewFile,BufRead *.bicepparam set filetype=bicep-params ]]
-vim.cmd [[ autocmd BufNewFile,BufRead *.xaml set filetype=xml ]]
+-- vim.cmd [[ autocmd BufNewFile,BufRead *.bicepparam set filetype=bicep-params ]]
+-- vim.cmd [[ autocmd BufNewFile,BufRead *.xaml set filetype=xml ]]
 
 -- Command-completion
 require('command-completion').setup()
